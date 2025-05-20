@@ -2,7 +2,7 @@
 # getting the power 128 is 2^6 so we need a loop
 # 128 return 7
 # 512 return 9
-#addi $t0 $0 128
+addi $t0 $0 33
 #add $s0 $0 $0
 #addi $t1 $0 1
 # we use shift left sll for the power of 2
