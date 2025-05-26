@@ -13,8 +13,8 @@ main:
     li $v0 5
     syscall
     
-    blt $v0 1 main
-    bgt $v0 100 main
+    blt $v0 1 main # branch less than 1 jump back to main
+    bgt $v0 100 main # branch greater than 100 also jump back to main
 
     move $a0 $v0
     jal square
