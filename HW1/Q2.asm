@@ -1,5 +1,5 @@
 .data
-arr: .word 5,1
+arr: .word 5,4
 result: .space 4
 
 .text 
